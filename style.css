@@ -51,7 +51,6 @@ img {
   z-index: 10;
   border: none;
   border-radius: 50%;
-  padding-bottom: 6px;
   font-size: 4rem;
   cursor: pointer;
 }
@@ -63,12 +62,16 @@ img {
 
 .left__btn {
   position: absolute;
-  top: 45%;
-  left: 5rem;
+  top: 50%;
+  left: 5%;
+
+  transform: translate(-5%, -50%);
 }
 
 .right__btn {
   position: absolute;
-  top: 45%;
-  right: 5rem;
+  top: 50%;
+  right: 5%;
+
+  transform: translate(-5%, -50%);
 }
